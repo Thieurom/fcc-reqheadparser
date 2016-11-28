@@ -1,0 +1,26 @@
+{
+  "name": "fcc-reqheadparser",
+  "version": "1.0.0",
+  "description": "Request Header Parser Microservice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thieurom/fcc-reqheadparser.git"
+  },
+  "author": "doanthieu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Thieurom/fcc-reqheadparser/issues"
+  },
+  "homepage": "https://u-reqheadparser.herokuapp.com",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "engines": {
+    "node": "6.9.1",
+    "npm": "3.10.8"
+  }
+}
