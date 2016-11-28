@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 
     let userAgent;
     
-    ipaddress = req.headers['x-forwared-for'];
+    ipaddress = req.headers['x-forwarded-for'];
     language = req.headers['accept-language'].split(';')[0].split(',')[0];
 
     userAgent = req.headers['user-agent'];
